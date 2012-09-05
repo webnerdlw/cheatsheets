@@ -1,0 +1,11 @@
+DNA {
+    "ValidateAvailableDate" DNA {
+       "class" String "com.bootcamp.webconnect.htmlapp.ValidateAvailableDate"
+    },
+    "ValidatePrice" DNA {
+        "class" String "com.bootcamp.webconnect.htmlapp.ValidatePrice"
+    },
+    "CalculatePricePerOz" DNA {
+        "class" String "com.bootcamp.webconnect.htmlapp.CalculatePricePerOz"
+    }
+}
