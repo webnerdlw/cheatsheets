@@ -2,10 +2,11 @@
 <h1> <bmr:dictionary element="Common" attribute="Dict_Gadget_Entry_Form" /> </h1>
 
 <bmb:getImage prodID="845524441761482" imageType="medium" var="myImagePath" />
-<img src="${myImagePath}"/>
+<img src="${myImagePath}"/> 
 
 <%
 	boolean wasSubmitted = dnaFormData.getBoolean("wasSubmitted", false);
+// are we having fun yet?
 	
 	if (wasSubmitted) {
 		DNAList gadgetID = dnaFormMeta.getList("GADGET<>gadget_id");
